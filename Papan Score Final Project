@@ -69,13 +69,216 @@ void lingkaran(int xb, int yb, int zb, int r, int n){
 }
 
 void lapangan(){
-    //lapangan
+    //lapangan1
     glBegin(GL_POLYGON);
-    glColor3f(0.0, 0.7,0.0);
-    glVertex3f(-33,-30,13);
-    glVertex3f(33,-30,13);
-    glVertex3f(33,-30,-28);
-    glVertex3f(-33,-30,-28);
+    glColor3f(0.0, 0.5,0.0);
+    glVertex3f(-30,-30,10);
+    glVertex3f(-25,-30,10);
+    glVertex3f(-25,-30,-25);
+    glVertex3f(-30,-30,-25);
+	glEnd();
+
+	//lapangan2
+    glBegin(GL_POLYGON);
+    glColor3f(0.0, 0.8,0.0);
+    glVertex3f(-25,-30,10);
+    glVertex3f(-20,-30,10);
+    glVertex3f(-20,-30,-25);
+    glVertex3f(-25,-30,-25);
+	glEnd();
+
+	//lapangan3
+    glBegin(GL_POLYGON);
+    glColor3f(0.0, 0.5,0.0);
+    glVertex3f(-20,-30,10);
+    glVertex3f(-15,-30,10);
+    glVertex3f(-15,-30,-25);
+    glVertex3f(-20,-30,-25);
+	glEnd();
+
+	 //lapangan4
+    glBegin(GL_POLYGON);
+    glColor3f(0.0, 0.8,0.0);
+    glVertex3f(-15,-30,10);
+    glVertex3f(-10,-30,10);
+    glVertex3f(-10,-30,-25);
+    glVertex3f(-15,-30,-25);
+	glEnd();
+
+	//lapangan5
+    glBegin(GL_POLYGON);
+    glColor3f(0.0, 0.5,0.0);
+    glVertex3f(-10,-30,10);
+    glVertex3f(-5,-30,10);
+    glVertex3f(-5,-30,-25);
+    glVertex3f(-10,-30,-25);
+	glEnd();
+
+	//lapangan6
+    glBegin(GL_POLYGON);
+    glColor3f(0.0, 0.8,0.0);
+    glVertex3f(-5,-30,10);
+    glVertex3f(0,-30,10);
+    glVertex3f(0,-30,-25);
+    glVertex3f(-5,-30,-25);
+	glEnd();
+
+	//lapangan7
+    glBegin(GL_POLYGON);
+    glColor3f(0.0, 0.8,0.0);
+    glVertex3f(30,-30,10);
+    glVertex3f(25,-30,10);
+    glVertex3f(25,-30,-25);
+    glVertex3f(30,-30,-25);
+	glEnd();
+
+	//lapangan8
+    glBegin(GL_POLYGON);
+    glColor3f(0.0, 0.5,0.0);
+    glVertex3f(25,-30,10);
+    glVertex3f(20,-30,10);
+    glVertex3f(20,-30,-25);
+    glVertex3f(25,-30,-25);
+	glEnd();
+
+	//lapangan9
+    glBegin(GL_POLYGON);
+    glColor3f(0.0, 0.8,0.0);
+    glVertex3f(20,-30,10);
+    glVertex3f(15,-30,10);
+    glVertex3f(15,-30,-25);
+    glVertex3f(20,-30,-25);
+	glEnd();
+
+	 //lapangan10
+    glBegin(GL_POLYGON);
+    glColor3f(0.0, 0.5,0.0);
+    glVertex3f(15,-30,10);
+    glVertex3f(10,-30,10);
+    glVertex3f(10,-30,-25);
+    glVertex3f(15,-30,-25);
+	glEnd();
+
+	//lapangan11
+    glBegin(GL_POLYGON);
+    glColor3f(0.0, 0.8,0.0);
+    glVertex3f(10,-30,10);
+    glVertex3f(5,-30,10);
+    glVertex3f(5,-30,-25);
+    glVertex3f(10,-30,-25);
+	glEnd();
+
+	//lapangan12
+    glBegin(GL_POLYGON);
+    glColor3f(0.0, 0.5,0.0);
+    glVertex3f(5,-30,10);
+    glVertex3f(0,-30,10);
+    glVertex3f(0,-30,-25);
+    glVertex3f(5,-30,-25);
+	glEnd();
+
+	//lapanganluarkiri
+    glBegin(GL_POLYGON);
+    glColor3f(0.0, 0.4,0.0);
+    glVertex3f(-44,-30,15);
+    glVertex3f(-30,-30,15);
+    glVertex3f(-30,-30,-30);
+    glVertex3f(-44,-30,-30);
+	glEnd();
+
+	//lapanganluarkanan
+    glBegin(GL_POLYGON);
+    glColor3f(0.0, 0.4,0.0);
+    glVertex3f(44,-30,15);
+    glVertex3f(30,-30,15);
+    glVertex3f(30,-30,-30);
+    glVertex3f(44,-30,-30);
+	glEnd();
+
+	//lapanganluardepan
+    glBegin(GL_POLYGON);
+    glColor3f(0.0, 0.4,0.0);
+    glVertex3f(30,-30,10);
+    glVertex3f(-30,-30,10);
+    glVertex3f(-30,-30,23);
+    glVertex3f(30,-30,23);
+	glEnd();
+
+	//lapangantambalansegiempatdepankiri
+    glBegin(GL_POLYGON);
+    glColor3f(0.0, 0.4,0.0);
+    glVertex3f(-36,-30,10);
+    glVertex3f(-30,-30,10);
+    glVertex3f(-30,-30,23);
+    glVertex3f(-36,-30,23);
+	glEnd();
+
+	//lapanganluartambalansegitigadepankiri
+    glBegin(GL_TRIANGLES);
+    glColor3f(0.0, 0.4,0.0);
+    glVertex3f(-44,-30,15);
+    glVertex3f(-30,-30,10);
+    glVertex3f(-36,-30,23);
+	glEnd();
+
+	//lapangantambalansegiempatdepankanan
+    glBegin(GL_POLYGON);
+    glColor3f(0.0, 0.4,0.0);
+    glVertex3f(36,-30,10);
+    glVertex3f(30,-30,10);
+    glVertex3f(30,-30,23);
+    glVertex3f(36,-30,23);
+	glEnd();
+
+	//lapanganluartambalansegitigadepankanan
+    glBegin(GL_TRIANGLES);
+    glColor3f(0.0, 0.4,0.0);
+    glVertex3f(44,-30,15);
+    glVertex3f(30,-30,10);
+    glVertex3f(36,-30,23);
+	glEnd();
+
+	//lapanganluarbelakang
+    glBegin(GL_POLYGON);
+    glColor3f(0.0, 0.4,0.0);
+    glVertex3f(30,-30,-25);
+    glVertex3f(-30,-30,-25);
+    glVertex3f(-30,-30,-38);
+    glVertex3f(30,-30,-38);
+	glEnd();
+
+	//lapangantambalansegiempatbelakangkiri
+    glBegin(GL_POLYGON);
+    glColor3f(0.0, 0.4,0.0);
+    glVertex3f(-36,-30,-38);
+    glVertex3f(-30,-30,-38);
+    glVertex3f(-30,-30,-26);
+    glVertex3f(-36,-30,-26);
+	glEnd();
+
+	//lapanganluartambalansegitigabelakangkiri
+    glBegin(GL_TRIANGLES);
+    glColor3f(0.0, 0.4,0.0);
+    glVertex3f(-36,-30,-38);
+    glVertex3f(-30,-30,-26);
+    glVertex3f(-44,-30,-30);
+	glEnd();
+
+	//lapangantambalansegiempatbelakangkanan
+    glBegin(GL_POLYGON);
+    glColor3f(0.0, 0.4,0.0);
+    glVertex3f(36,-30,-38);
+    glVertex3f(30,-30,-38);
+    glVertex3f(30,-30,-26);
+    glVertex3f(36,-30,-26);
+	glEnd();
+
+	//lapanganluartambalansegitigabelakangkanan
+    glBegin(GL_TRIANGLES);
+    glColor3f(0.0, 0.4,0.0);
+    glVertex3f(36,-30,-38);
+    glVertex3f(30,-30,-26);
+    glVertex3f(44,-30,-30);
 	glEnd();
 
     //garislapangan
@@ -87,14 +290,33 @@ void lapangan(){
     glVertex3f(-30,-30,-25);
     glEnd();
 
-    /*//garislapangantengah
-    glColor3f(1,1,1);
-    lingkaran(0,0,0,20,40);
-    */
+    //garislapangantengah
     glBegin(GL_LINES);
     glColor3f(1,1,1);
     glVertex3f(0,-30,10);
     glVertex3f(0,-30,-25);
+    glEnd();
+
+    //garissegiempattengah
+    glBegin(GL_LINE_LOOP);
+    glColor3f(1,1,1);
+    glVertex3f(0,-30,-3);
+    glVertex3f(-2,-30,-3);
+    glVertex3f(-4,-30,-5);
+    glVertex3f(-4,-30,-10);
+    glVertex3f(-2,-30,-12);
+    glVertex3f(0,-30,-12);
+    glEnd();
+
+    //garissegiempattengah2
+    glBegin(GL_LINE_LOOP);
+    glColor3f(1,1,1);
+    glVertex3f(0,-30,-3);
+    glVertex3f(2,-30,-3);
+    glVertex3f(4,-30,-5);
+    glVertex3f(4,-30,-10);
+    glVertex3f(2,-30,-12);
+    glVertex3f(0,-30,-12);
     glEnd();
 
     //gariskotakgawangluar1
@@ -104,6 +326,17 @@ void lapangan(){
     glVertex3f(-30,-30,-17);
     glVertex3f(-21,-30,-17);
     glVertex3f(-21,-30,2);
+    glEnd();
+
+    //garisegienam1
+    glBegin(GL_LINE_LOOP);
+    glColor3f(1,1,1);
+    glVertex3f(-21,-30,-4);
+    glVertex3f(-20,-30,-4);
+    glVertex3f(-19,-30,-5);
+    glVertex3f(-19,-30,-10);
+    glVertex3f(-20,-30,-11);
+    glVertex3f(-21,-30,-11);
     glEnd();
 
     //gariskotakgawangdalam1
@@ -124,6 +357,17 @@ void lapangan(){
     glVertex3f(21,-30,2);
     glEnd();
 
+    //garissegienam2
+    glBegin(GL_LINE_LOOP);
+    glColor3f(1,1,1);
+    glVertex3f(21,-30,-4);
+    glVertex3f(20,-30,-4);
+    glVertex3f(19,-30,-5);
+    glVertex3f(19,-30,-10);
+    glVertex3f(20,-30,-11);
+    glVertex3f(21,-30,-11);
+    glEnd();
+
     //gariskotakgawangdalam2
     glBegin(GL_LINE_LOOP);
     glColor3f(1,1,1);
@@ -133,7 +377,54 @@ void lapangan(){
     glVertex3f(27,-30,-3);
     glEnd();
 
-    //tianggawang1
+    //tianggawangkiri
+    glBegin(GL_LINE_LOOP);
+    glColor3f(1,1,1);
+    glVertex3f(-30,-30,-5);
+    glVertex3f(-30,-30,-10);
+    glVertex3f(-30,-27,-10);
+    glVertex3f(-30,-27,-5);
+    glEnd();
+
+    //tutupgawangdepankiri
+    glBegin(GL_POLYGON);
+    glColor3f(1,1,1);
+    glVertex3f(-30,-27,-5);
+    glVertex3f(-32,-27,-5);
+    glVertex3f(-34,-30,-5);
+    glVertex3f(-30,-30,-5);
+    glVertex3f(-30,-27,-5);
+    glEnd();
+
+    //tutupgawangataskiri
+    glBegin(GL_POLYGON);
+    glColor3f(1,1,1);
+    glVertex3f(-30,-27,-5);
+    glVertex3f(-32,-27,-5);
+    glVertex3f(-32,-27,-10);
+    glVertex3f(-30,-27,-10);
+    glEnd();
+
+    //tutupgawangmiringkiri
+    glBegin(GL_POLYGON);
+    glColor3f(1,1,1);
+    glVertex3f(-32,-27,-5);
+    glVertex3f(-34,-30,-5);
+    glVertex3f(-34,-30,-10);
+    glVertex3f(-32,-27,-10);
+    glEnd();
+
+     //tutupgawangbelakangkiri
+    glBegin(GL_POLYGON);
+    glColor3f(1,1,1);
+    glVertex3f(-30,-27,-10);
+    glVertex3f(-32,-27,-10);
+    glVertex3f(-34,-30,-10);
+    glVertex3f(-30,-30,-10);
+    glVertex3f(-30,-27,-10);
+    glEnd();
+
+     //tianggawangkanan
     glBegin(GL_LINE_LOOP);
     glColor3f(1,1,1);
     glVertex3f(30,-30,-5);
@@ -142,15 +433,44 @@ void lapangan(){
     glVertex3f(30,-27,-5);
     glEnd();
 
-    //tianggawang2
-    glBegin(GL_LINE_LOOP);
+    //tutupgawangdepankanan
+    glBegin(GL_POLYGON);
     glColor3f(1,1,1);
-    glVertex3f(-30,-30,-5);
-    glVertex3f(-30,-30,-10);
-    glVertex3f(-30,-27,-10);
-    glVertex3f(-30,-27,-5);
+    glVertex3f(30,-27,-5);
+    glVertex3f(32,-27,-5);
+    glVertex3f(34,-30,-5);
+    glVertex3f(30,-30,-5);
+    glVertex3f(30,-27,-5);
     glEnd();
-    
+
+    //tutupgawangataskanan
+    glBegin(GL_POLYGON);
+    glColor3f(1,1,1);
+    glVertex3f(30,-27,-5);
+    glVertex3f(32,-27,-5);
+    glVertex3f(32,-27,-10);
+    glVertex3f(30,-27,-10);
+    glEnd();
+
+    //tutupgawangmiringkanan
+    glBegin(GL_POLYGON);
+    glColor3f(1,1,1);
+    glVertex3f(32,-27,-5);
+    glVertex3f(34,-30,-5);
+    glVertex3f(34,-30,-10);
+    glVertex3f(32,-27,-10);
+    glEnd();
+
+     //tutupgawangbelakangkanan
+    glBegin(GL_POLYGON);
+    glColor3f(1,1,1);
+    glVertex3f(30,-27,-10);
+    glVertex3f(32,-27,-10);
+    glVertex3f(34,-30,-10);
+    glVertex3f(30,-30,-10);
+    glVertex3f(30,-27,-10);
+    glEnd();
+
     //iklan depan
     glBegin(GL_POLYGON);
     glColor3f(0,0,0.5);
@@ -159,7 +479,7 @@ void lapangan(){
     glVertex3f(32,-28,15);
     glVertex3f(32,-30,15);
     glEnd();
-    
+
     //iklan belakang
     glBegin(GL_POLYGON);
     glColor3f(0,0.5,0);
@@ -168,7 +488,7 @@ void lapangan(){
     glVertex3f(32,-28,-30);
     glVertex3f(32,-30,-30);
     glEnd();
-    
+
     //iklan samping kanan
     glBegin(GL_POLYGON);
     glColor3f(0.5,0,0);
@@ -177,7 +497,7 @@ void lapangan(){
     glVertex3f(36,-28,-28);
     glVertex3f(36,-30,-28);
     glEnd();
-    
+
     //iklan samping kiri
     glBegin(GL_POLYGON);
     glColor3f(0.5,0.5,1);
@@ -186,21 +506,21 @@ void lapangan(){
     glVertex3f(-36,-28,-28);
     glVertex3f(-36,-30,-28);
     glEnd();
-    
+
     //tiang bendera 1
     glBegin(GL_LINES);
     glColor3f(1,1,1);
     glVertex3f(-30,-30,10);
     glVertex3f(-30,-28,10);
 	glEnd();
-	
+
 	//tiang bendera 2
     glBegin(GL_LINES);
     glColor3f(1,1,1);
     glVertex3f(30,-30,-25);
     glVertex3f(30,-28,-25);
 	glEnd();
-	
+
 	//tiang bendera 3
     glBegin(GL_LINES);
     glColor3f(1,1,1);
@@ -214,7 +534,7 @@ void lapangan(){
     glVertex3f(30,-30,10);
     glVertex3f(30,-28,10);
 	glEnd();
-	
+
 	//bendera 1
     glBegin(GL_TRIANGLES);
     glColor3f(1,1,0);
@@ -222,7 +542,7 @@ void lapangan(){
     glVertex3f(-30,-27,10);
     glVertex3f(-29,-27.5,10);
 	glEnd();
-	
+
 	//bendera 2
     glBegin(GL_TRIANGLES);
     glColor3f(1,1,0);
@@ -230,7 +550,7 @@ void lapangan(){
     glVertex3f(30,-27,-25);
     glVertex3f(31,-27.5,-25);
 	glEnd();
-	
+
 	//bendera 3
     glBegin(GL_TRIANGLES);
     glColor3f(1,1,0);
@@ -238,7 +558,7 @@ void lapangan(){
     glVertex3f(-30,-27,-25);
     glVertex3f(-29,-27.5,-25);
 	glEnd();
-	
+
 	//bendera 4
     glBegin(GL_TRIANGLES);
     glColor3f(1,1,0);
